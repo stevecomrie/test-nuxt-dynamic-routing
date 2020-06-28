@@ -66,5 +66,14 @@ export default {
         component: 'pages/passwords/_id.vue'
       }
     ]
- },
+  },
+
+  generate: {
+    fallback: true,
+    routes: async () => {
+      let staticRoutes = []
+
+      return staticRoutes
+    }
+  }
 }
