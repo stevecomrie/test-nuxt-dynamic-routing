@@ -58,22 +58,21 @@ export default {
   build: {
   },
 
-  router: {
-    routes: [
-      {
-        name: 'passwords',
-        path: '/passwords/:id?',
-        component: 'pages/passwords/_id.vue'
-      }
-    ]
-  },
+  // router: {
+  //   routes: [
+  //     {
+  //       name: 'passwords',
+  //       path: '/passwords/:id?',
+  //       component: 'pages/passwords/_id.vue'
+  //     }
+  //   ]
+  // },
 
   generate: {
     fallback: true,
-    routes: async () => {
-      let staticRoutes = []
-
-      return staticRoutes
-    }
+    // routes: async () => {
+    //   let staticRoutes = []
+    //   return staticRoutes
+    // }
   }
 }
